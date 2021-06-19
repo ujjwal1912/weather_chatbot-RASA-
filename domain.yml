@@ -1,0 +1,48 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - weather
+  - city
+actions:
+  - utter_city
+  - utter_temp
+  - utter_cheer_up
+  - utter_greet
+  - action_weather_api
+
+responses:
+  utter_greet:
+  - text: "Hey! How may i help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_city:
+  - text: "which city you want to check for?"
+
+  utter_temp:
+  - text: "Today's temp is {temp}"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
