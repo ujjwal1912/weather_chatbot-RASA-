@@ -28,4 +28,4 @@ rasa shell
 ```
 
 Output - 
-[![Chatbot](https://github.com/ujjwal1912/weather_chatbot-RASA-/blob/master/img/output.PNG)]
+![Chatbot](https://github.com/ujjwal1912/weather_chatbot-RASA-/blob/master/img/output.PNG)
