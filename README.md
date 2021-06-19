@@ -1,5 +1,5 @@
 # weather_chatbot-RASA-
-This is a RASA chatbot which tells about the temp of the city.( right now i have included only delhi, raebareli, mumbai, lucknow)
+This is a RASA chatbot which tells user the temp of the city.( right now i have included only delhi, raebareli, mumbai, lucknow)
 
 This application is simple demo of using external API in RASA chatbot.
 
